@@ -11,5 +11,8 @@ registerSW({
   }
 });
 
-// Redirect to Teams web app
-window.location.href = 'https://teams.microsoft.com';
+// Initialize the app
+window.addEventListener('load', () => {
+  // Redirect to Teams web app
+  window.location.replace('https://teams.microsoft.com');
+});
