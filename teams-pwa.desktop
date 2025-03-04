@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Microsoft Teams
+Comment=Microsoft Teams for Ubuntu
+Exec=chromium-browser --app=https://teams.microsoft.com --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" --enable-features=WebComponentsV0Enabled --ignore-certificate-errors
+Icon=/home/igor/teams-pwa-project/public/icons/teams-512x512.png
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
